@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+
+body
+{	/*Colocar Imagem no background*/
+	background-image: url(img/panodefundo.png); 
+	/*font-family: Chilanka;*/
+}
+
+header
+{
+	background: black;
+	color: white;
+}
+
+.nav-item
+{
+	color: white;
+}
+
+/*Quando o mouse passa por cima*/
+.nav-item:hover
+{
+	color: white;
+}
+
+#envelopePrincipal
+{
+	background: black;
+	color: white;
+	/*margin-right: 250px;
+	margin-left: 250px;*/
+}
+
+#apresentacao 
+{	/*Alinhar Texto*/
+	text-align: center;
+}
+
+#apresentacao img
+{	/*Centralizar a Imagem*/
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.section
+{	/*Colocar Borda*/
+	border: solid;
+}
+
+#quemSomos img
+{	/*Definir Largura*/
+	/*width: 700px;*/
+}
+
+#nossaHistoria img
+{
+	/*width: 700px;*/
+}
+
+.section
+{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px; 
+	font-size: 1.25em;
+}
+
+.section h2
+{
+	font-size: 1.75em;
+}
+
+.imgCasas
+{	
+	width: 100%;
+	border-style: solid;
+}
+footer
+{
+	background: black;
+	color: white;
+}
